@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-font-smotthing:antialiased;
+}
+:root{
+    --primary:#3dcfd3;
+    --dark:#161616;
+    --pure:#fff;
+    --ternary:#898989;
+    --light:#f2f2f2;
+    --secondary:;
+}
+.container{
+    width: 1154px;
+    padding: 15px;
+    margin: 0 auto;
+    
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;   
+}
+header{
+    width: 100%;
+    background: var(--dark);
+    color: var(--pure);
+    
+}
+.menu li a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--ternary);
+    margin-right: 4rem;
+    text-transform: uppercase;
+    font-family: Raleway;
+    transition: all .3s ease;
+    
+}
+
+.menu {
+    list-style: none;
+    margin-left: 4rem;
+}
+.menu li{
+    
+}
+
+.menu li a:hover {
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+    
+}
